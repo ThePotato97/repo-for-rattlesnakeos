@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := privapp-permissions-com.google.android.gms.xml
+LOCAL_MODULE := privapp-permissions-com.google.android.gms-NANODROIDBETA.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
@@ -17,6 +17,6 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
-LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml
+LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms-NANODROIDBETA.xml
 include $(BUILD_PREBUILT)
 
